@@ -1,0 +1,21 @@
+:root{
+    --button-color:orangered;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:26px ;
+}
+svg{
+    top:0;
+    width:30px;
+}
+@media (max-width: 768px) {
+#nav-bar{  
+    position:fixed;
+    z-index:3;
+        width:100vw;
+        height:100vh;
+        top:0;
+        left:0;
+    }
+}
